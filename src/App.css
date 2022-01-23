@@ -1,0 +1,388 @@
+
+
+ body {
+ 
+  background-color: #728569;
+  background:#728569 url('/src/plants/image/11.png');
+  color: #ffffff;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+
+} 
+
+
+
+.logo{
+  width: 350px;
+
+
+}
+
+
+.Social_Media{
+
+  width: 50px;
+  margin: 1em;
+
+}
+
+.logo2{
+  align-content:end ;
+  width: 650px;
+  position: relative;
+  display: table-caption;
+  float: left;
+
+  
+}
+
+
+h3{
+
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+.Home {
+  /* box-sizing: border-box;
+  font-size: 100%; 
+  overflow-y: auto;
+  background: var(--greyLight-1);
+   */
+
+   box-sizing: content-box;
+width: 100%;
+
+}
+
+
+.Home2{
+  
+  min-height: 75%;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: var(--greyLight-1);
+   color: #000000;
+    text-align: center;
+
+  }
+
+
+
+.input1 {
+  /* width: 400px;
+  background: #49763f93;
+  padding: 3% ;
+  margin: 1em auto;
+  border-top: 5px solid #000000;
+  box-shadow: 0 2px 10px rgba(92, 92, 92, 0.8); */
+  margin: 20px auto;
+  background-color: #7285699d;
+  width: 500px;
+border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 10px 10px 10px #000000;
+
+
+
+
+
+
+}
+
+
+
+
+label {
+  display: block;
+  padding-bottom:0;
+}
+
+
+
+input {
+  /* display: block;
+  font-size: 1.2em;
+  padding: 0.25em;
+  width: 100%;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  border: 2px solid #728569; */
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom:10px ;
+  font-size: 18px;
+  /* text-transform: capitalize; */
+  box-shadow: 3px 3px 5px #5c6b55;
+  border: 2px solid #272b26a4;
+  border-radius: 5px;
+}
+
+
+.bubbly{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+   font-size: 9px;
+   padding: 1em 4em;
+   margin-top: 0px;
+   margin-bottom: 13px;
+   border-radius: 40px;
+   
+  color: #3b5a35;
+  border: 1px solid #7a915b;
+  padding: 10px 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  
+
+ 
+}
+
+h3{
+  font-family: serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  color: #ffffff;
+  margin-top: 57px;
+  font-weight: 7;
+  font-size: 30px;
+
+}
+
+
+h5{
+  font-family:serif;
+  color: #ffffff ;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 7;
+  
+
+}
+
+.bubbly1{
+  display: inline-block;
+    font-size: 13px;
+    padding: 17px;
+    margin-top: px;
+   margin-bottom: 5px;
+   -webkit-appearance: none;
+    appearance: solid;
+     background-color:#6d884ad5;
+    border-radius: 2% 24%;
+   border: none;
+   cursor: pointer;
+     position: relative;
+
+}
+
+
+
+
+
+
+
+/* login */
+.bubbly3 {
+  display: inline-block;
+    font-size: 20px;
+    padding: 123px;
+    margin-top: 022px;
+   margin-bottom: 13px;
+   -webkit-appearance: none;
+    appearance: solid;
+     background-color:#61856136;
+    border-radius: 12px;
+   border: none;
+   cursor: pointer;
+     position: relative;
+    box-shadow: 01 2px 5px #acacac59;
+    
+}
+
+
+
+
+/* plant friends */
+
+
+.bubbly33 {
+  display: inline-block;
+  font-size: 20px;
+  padding: 100px;
+  margin-top: 022px;
+ margin-bottom: 13px;
+ -webkit-appearance: none;
+  appearance: solid;
+   background-color:#a2cfa23d;
+  border-radius: 12px;
+ border: none;
+ cursor: pointer;
+   position: relative;
+
+}
+
+
+
+
+/* UserProfile */
+
+.bubbly4 { 
+ 
+  font-family: "Gill Sans", sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    padding: 2em 5em;
+    margin-top: 0px;
+   margin-bottom: 13px;
+     background-color:#61856163;
+    border-radius: 40px;
+   border: none;
+   display: inline-block;
+   position: relative;
+
+}
+
+
+.bubbly6 {
+  align-content: center;
+  font-size: 20px;
+  padding: 1em 4em;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius: 4px;
+  color: #434942;
+  border: 1px solid #1c1d1b;
+  padding: 3px 22px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  display: block;
+
+
+
+
+}
+
+.card{ 
+   margin:4% 0;
+   float: right;
+  background: #49763f36;
+  width: 500px;
+  border: 2px solid #2e472e;
+
+
+}
+
+.card-header{
+  background: #43693b;
+  height: 10px;
+  
+}
+
+
+.card-image{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius : solid;
+
+
+}
+
+.card-info{
+  text-align: center;
+}
+.card-name{
+  margin: 30px auto;
+  font-size: 30px;
+}
+.card-info{
+  line-height:  32px;
+}
+
+
+
+.card-social .fa{
+  margin: 20px 6px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+/* add link  HOME */
+
+.gallery {
+  
+  width: 80%;
+	height:180px;
+	background:#2c2c2c00;
+	margin: 30px auto;
+  box-shadow: 0 10px 6px -6px #777;
+ background-image: url("https://wallpaperaccess.com/full/6016886.jpg");
+
+ 
+
+
+}
+
+
+
+
+.desc {
+  align-content: center;
+  padding: 10px 10px 10px 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 23px;
+  display: ruby-text;
+
+
+}
+
+
+
+/* Afforestation */
+.Home6{
+  background: url('/src/plants/image/2.png') no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 20px;
+  height: 200px;
+}
+
+
+.W2{
+ 
+ position: static;
+ top: 20px;
+  display: inline-flex;
+  max-width: 90px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+
+.W1{
+  width: 34%;
+  height: auto;
+}
+
+
+
+

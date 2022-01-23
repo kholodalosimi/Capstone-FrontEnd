@@ -98,7 +98,7 @@ function handleSubmit1(){
       console.log(NueTrees)
       axios({
           method: 'post',
-          url: 'api/trees/add',
+          url: 'https://plant-friend-backend.herokuapp.com/api/trees/add',
           data: NueTrees,
           
       });
@@ -117,7 +117,7 @@ function handleSubmit1(){
           console.log(NueTreetype)
           axios({
               method: 'post',
-              url: 'api/Treetype/add',
+              url: 'https://plant-friend-backend.herokuapp.com/api/Treetype/add',
               data: NueTreetype,
           });
       

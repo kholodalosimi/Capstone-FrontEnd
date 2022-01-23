@@ -22,7 +22,7 @@ export default class PlantFriends extends Component {
 
 
     componentDidMount() {
-        axios.get("api/trees").then(response => {
+        axios.get("https://plant-friend-backend.herokuapp.com/api/trees").then(response => {
             const useFriends = response.data
             this.setState({ useFriends });
 

@@ -17,7 +17,7 @@ export default function Login() {
     axios({
 
         method: "get",
-        url: "api/users/login",
+        url: "https://plant-friend-backend.herokuapp.com/api/users/login",
         params: { username: username, password: password }
 
     })

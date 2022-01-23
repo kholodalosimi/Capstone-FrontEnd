@@ -48,7 +48,7 @@ function handleSubmit(){
         console.log(NueUsers)
         axios({
             method: 'post',
-            url: 'api/users/add',
+            url: 'https://plant-friend-backend.herokuapp.com/api/users/add',
             data: NueUsers,
         });
     
